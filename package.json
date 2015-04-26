@@ -1,0 +1,32 @@
+{
+  "name": "arbolista",
+  "version": "0.0.0",
+  "description": "Arbolist LLC company site.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "angular": "1.3.15",
+    "body-parser": "~1.12.0",
+    "bootstrap": "3.3.4",
+    "cookie-parser": "~1.3.4",
+    "debug": "~2.1.1",
+    "express": "~4.12.2",
+    "jade": "~1.9.2",
+    "less-middleware": "^2.0.1",
+    "morgan": "~1.5.1",
+    "serve-favicon": "~2.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:ArbolIntl/arbolista.git"
+  },
+  "author": "ArbolIntl",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ArbolIntl/arbolista/issues"
+  },
+  "homepage": "https://github.com/ArbolIntl/arbolista"
+}
