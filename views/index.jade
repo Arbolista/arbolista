@@ -1,9 +1,7 @@
 extends layout
+block scripts
+block styles
+	link(rel='stylesheet', href='/stylesheets/bubbles.css')
 block content
 	// http://bl.ocks.org/mbostock/7607535
-	p.
-		I am a self-taught developer with four years of development experience in several languages and frameworks. After originally graduating from Stanford with a focus on energy and environmental engineering, I wanted to apply information technology to leverage efficiency and social connectedness to address the challenges of our burgeoning population and consumption. 
-	p.
-		I now primarily reside in Mexico City, though I return to San Francisco for weeks at a time. I am currently looking for additional projects to develop and manage through my development company.
-	p.
-		We are full stack development company with particular expertise in RESTful API services for web and mobile applications. We also have substantial front end experience in developing user interactive forms and graphics. We have Android development experience and are looking to increase our mobile production in the coming months.
+	div(id="resume")

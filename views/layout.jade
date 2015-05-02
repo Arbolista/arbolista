@@ -1,17 +1,15 @@
 doctype html
 html
 	head
+		meta(http-equiv="content-type", content="text/html; charset=UTF-8")
 		title= title
-		link(rel='stylesheet', href='/stylesheets/style.css')
-		link(rel='stylesheet', href='/bootstrap/less/bootstrap.css')
-		script(src='/jquery/dist/jquery.min.js')
-		script(src='/bootstrap/dist/js/bootstrap.min.js')
-		script(src='/angular/angular.min.js')
-		script(src='/d3/d3.min.js')
+		!= css("application")
+		!= js("application")
 	body
 		nav(class="navbar navbar-default")
 			div(class="container-fluid")
 				div(class="navbar-header")
-					a(class="navbar-brand", href="/") Arbolista Development
+					a(class="navbar-brand", href="/") Arbolista
 		div(class="container")
 			block content
+		block scripts

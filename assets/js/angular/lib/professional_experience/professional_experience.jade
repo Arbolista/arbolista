@@ -1,0 +1,12 @@
+div(id="experience")
+	h3.
+		a(title="_blank", data-ng-href="{{experience.link}}") {{experience.company_name}}
+	h4.
+		{{experience.dates}}, {{experience.type}}
+		= i18n.t("angular.professional_experience.employee_type")
+	p(data-ng-repeat="paragraph in experience.summary").
+		{{paragraph}}
+	div("data-ng-if"="experience.accomplishments")
+		p= i18n.t("angular.professional_experience.accomplishment_header")
+		ul
+			li(data-ng-repeat="acomplishment in experience.accomplishments") {{accomplishment}}

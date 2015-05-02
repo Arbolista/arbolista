@@ -6,7 +6,12 @@ var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 
 var routes = require('./routes/index');
-var users = require('./routes/users');
+
+/*
+ * I18n Translation
+ */
+
+var i18n = require(__dirname + "/config/i18next");
 
 var app = express();
 
@@ -20,12 +25,14 @@ app.use(logger('dev'));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
-app.use(require('less-middleware')(__dirname + '/bower_components', {force: true}));
+app.use(require("connect-assets")({
+	paths: ["assets/js", "assets/css", "bower_components"]
+}));
 app.use(express.static(path.join(__dirname, 'public')));
 app.use(express.static(path.join(__dirname, 'bower_components')));
+app.use(i18n.handle);
 
 app.use('/', routes);
-app.use('/users', users);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

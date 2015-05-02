@@ -1,7 +1,7 @@
 {
   "name": "arbolista",
   "version": "0.0.0",
-  "description": "Arbolist LLC company site.",
+  "description": "Arbolista LLC company site.",
   "main": "index.js",
   "scripts": {
     "test": "test",
@@ -15,9 +15,12 @@
     "debug": "~2.1.1",
     "express": "~4.12.2",
     "jade": "~1.9.2",
-    "less-middleware": "^2.0.1",
     "morgan": "~1.5.1",
-    "serve-favicon": "~2.2.0"
+    "serve-favicon": "~2.2.0",
+    "i18next": "1.7.10 ",
+    "less":"2.5.0",
+    "connect-assets":"4.7.0",
+    "yamljs": "0.2.2"
   },
   "repository": {
     "type": "git",
