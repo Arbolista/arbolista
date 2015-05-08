@@ -5,13 +5,17 @@ html(lang=i18n.lng())
 		meta(name="viewport", content="width=device-width, initial-scale=1")
 		title= title
 		!= css("application")
-		!= js("application")
 	body
 		nav(class="navbar navbar-default", style="margin-bottom:0px;")
 			div(class="container")
 				div(class="navbar-header")
+					button(type="button", class="navbar-toggle collapsed", data-toggle="collapse", data-target="#navbar", aria-expanded="false", aria-controls="navbar")
+						span(class="sr-only") Toggle navigation
+						span(class="icon-bar")
+						span(class="icon-bar")
+						span(class="icon-bar")
 					a(class="navbar-brand", href="/"+i18n.lng()) arbolista
-				div(class="collapse navbar-collapse")
+				div(id="navbar", class="collapse navbar-collapse")
 					ul(class="nav navbar-nav navbar-right")
 						li
 							a(href="/"+i18n.lng()+"/"+i18n.t("routes.hire_us"))= i18n.t("views.layout.hire_us")
@@ -29,4 +33,5 @@ html(lang=i18n.lng())
 								li
 									a(href="/pt/" + i18n.t("routes."+current_page, {lng: "pt"}), class: klass) Português
 		block content
+		!= js("application")
 		block scripts
