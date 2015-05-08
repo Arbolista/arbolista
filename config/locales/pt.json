@@ -1,0 +1,24 @@
+{
+	"routes": {
+		"about": "sobre-nos",
+		"hire_us": "contrata-nos",
+		"work_with_us": "trabalha-com-nos"
+	},
+	"views" : {
+		"layout" : {
+			"work_with_us" : "Trabalha",
+			"hire_us" : "Contrata",
+			"about" : "Sobre",
+			"language": "Idioma"
+		},
+		"about": {
+			"view_as_text": "View as text."
+		},
+		"work_with_us": {
+			"text": "ola, trabalha com nos."
+		},
+		"hire_us": {
+			"text": "ola, contrata-nos."
+		}
+	}
+}

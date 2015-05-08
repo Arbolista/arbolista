@@ -10,15 +10,22 @@
 .node--leaf {
   fill: white;
 }
+.node--leaf.node--end {
+  pointer-events:none;
+}
 
 .label {
-  font: 11px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 13px Calibri, sans-serif;
   text-anchor: middle;
   text-shadow: 0 1px 0 #fff, 1px 0 0 #fff, -1px 0 0 #fff, 0 -1px 0 #fff;
 }
 
 .label,
-.node--root,
-.node--leaf {
+.node--root {
   pointer-events: none;
+}
+
+.arb-bubbles {
+  width:100%;
+  max-width:700px;
 }

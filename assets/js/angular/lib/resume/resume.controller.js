@@ -1,16 +1,37 @@
 (function() {
 	angular.module('arbolista').controller("ResumeController", ResumeController);
 
-	ResumeController.$inject = ["$scope"];
+	ResumeController.$inject = ["$scope", "$state"];
 
-	function ResumeController($scope) {
-		var rc = this;
-		
-		rc.bubbles = true;
-		
-		d3.json("/data/eric.json", function(error, root) {
+	function ResumeController($scope, $state){
+		var rc = this,
+			format = localStorage.resume_format;
+		rc.format = format;
 			
-		});
+		$scope.toggleFormat = function(){
+			if (rc.format === "bubbles"){
+				setFormat("text");
+			} else {
+				setFormat("bubbles");
+			}
+		};
+		
+		function setFormat(format){
+			format = format || "bubbles";
+			if (format === "text"){
+				$state.go("text");
+			} else {
+				format = "bubbles";
+				$state.go("bubbles");
+			}
+			rc.format = format;
+			localStorage.resume_format = format;			
+		}
+		
+		d3.json("/data/eric.json", function(error, data) {
+			$scope.resume = data;
+			setFormat(format);
+		});		
 	}
 
 })(); 

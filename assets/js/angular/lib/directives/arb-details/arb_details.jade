@@ -1,0 +1,14 @@
+div(id="resume_details", class="arb-slider-item")
+	div(class="panel panel-info")
+		div(class="panel-heading")
+			h4(data-ng-hide="!!node.link") {{node.title}}
+			h4(data-ng-hide="!node.link") 
+				a(data-ng-href="{{node.link}}", target="_blank") {{node.title}}
+		div(class="panel-body")
+			h4(data-ng-repeat="subtitle in node.subtitles") {{subtitle}}
+			p(data-ng-repeat="paragraph in node.details.summary") {{paragraph}}
+			div(class="arb-details-list-title") {{node.details.list_title}}
+			ul
+				li(data-ng-repeat="item in node.details.list") {{item}}
+			div(style="text-align:center;")
+				button(data-ng-click="close()", class="btn") Ok	

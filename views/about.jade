@@ -1,0 +1,26 @@
+extends layout
+block content
+	div(class="container-fluid", data-ng-app="arbolista", data-ng-controller="ResumeController as rc")
+		div(class="row")
+			div(id="resume_buttons")
+				a(id="arb_text_option", "data-toggle"="popover",
+					title=i18n.t("views.about.view_as_text"),
+					data-ng-click="toggleFormat()",
+					data-ng-class="{active: rc.format==='text'}")
+					i.fa.fa-file-text
+				a(class="btn", href="https://www.linkedin.com/pub/eric-hulburd/39/25a/8b0")
+					i(class="fa fa-linkedin")
+				a(class="btn", href="https://github.com/arbolista")
+					i(class="fa fa-github")
+				a(class="btn", href="http://stackoverflow.com/users/1149459/eric-h")
+					i(class="fa fa-stack-overflow")
+				a(class="btn", href="https://twitter.com/oyecalifornia")
+					i(class="fa fa-twitter")
+			div(data-ui-view=true)
+block scripts
+	script.
+		$(document).ready(function(){
+			$("#resume_buttons a").on("focus", function(){
+				this.blur();
+			});
+		});

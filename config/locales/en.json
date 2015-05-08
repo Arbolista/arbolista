@@ -1,8 +1,24 @@
 {
-	"angular" : {
-		"professional_experience" : {
-			"employee_type" : "employee",
-			"accomplishment_header" : "Accomplishments included: "		
+	"routes": {
+		"about": "about",
+		"hire_us": "hire-us",
+		"work_with_us": "work-with-us"
+	},
+	"views" : {
+		"layout" : {
+			"work_with_us" : "Work",
+			"hire_us" : "Hire",
+			"about" : "About",
+			"language": "Language"
+		},
+		"about": {
+			"view_as_text": "View as text."
+		},
+		"work_with_us": {
+			"text": "hello, work with us."
+		},
+		"hire_us": {
+			"text": "hello, hire us."
 		}
 	}
 }

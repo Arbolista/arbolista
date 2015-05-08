@@ -1,0 +1,186 @@
+{ "name": "Eric Hulburd",
+  "children":[
+  {
+    "title": "Contact",
+    "children":[
+    	{"title":"Mexico, City", "weight":1 },
+    	{"title":"San Francisco, CA", "weight":1 },
+    	{"title":"eric@arbol.org", "weight":2 },
+    	{"title":"805-712-8818", "weight":1 }
+    ]
+  },
+  {
+    "title": "About",
+    "weight": 5,
+    "details": [
+      "I am a self-taught developer with four years of development experience in several languages and frameworks. After originally graduating from Stanford with a focus on energy and environmental engineering, I wanted to apply information technology to leverage efficiency and social connectedness to address the challenges of our burgeoning population and consumption.",
+      "I now primarily reside in Mexico City, though I return to San Francisco for weeks at a time. I am currently looking for additional projects to develop and manage through my development company.",
+      "We are full stack development company with particular expertise in RESTful API services for web and mobile applications. We also have substantial front end experience in developing user interactive forms and graphics. We have Android development experience and are looking to increase our mobile production in the coming months."
+    ]
+  },
+  {
+    "title": "Education",
+    "children": [
+      {
+        "title": "BS Engineering",
+        "subtitle": "Stanford University",
+        "weight": 6,
+        "details": [
+          "Graduated with honors first year of Stanford's Atmosphere and Energy program."
+        ],
+        "link": "https://cee.stanford.edu/programs/atmosphereenergy"
+      },
+      {
+        "title": "MA US History",
+        "subtitle": "Stanford University",
+        "weight": 4
+      }
+    ]
+  },
+  {
+    "title": "Engineering Skills",
+    "children": [
+      {
+        "title": "Ruby/Rails",
+        "weight": 3
+      },
+      {
+        "title": "HTML/CSS",
+        "weight": 3
+      },
+      {
+        "title": "Javascript/Angular/Node",
+        "weight": 3
+      },
+      {
+        "title": "Carbon Accounting/Life Cycle Analysis",
+        "weight": 2
+      },
+      {
+        "title": "Postgres (SQL)",
+        "weight": 2
+      },
+      {
+        "title": "Java/Android",
+        "weight": 1,
+        "details": "I've only done a monthly long open source project in Android, but am looking to expand here."
+      },
+      {
+        "title": "Python/Django",
+        "weight": 1,
+        "details": "First programming language I ever learned. Now using it to right investment algorthms at Quantopian.com."
+      }
+    ]
+  },
+  {
+    "title": "Experience",
+    "children": [
+      {
+        "title": "Programming",
+        "children": [
+          {
+            "title": "Oroeco Fullstack Developer",
+            "weight": 30,
+            "details": {
+              "type": "contract",
+              "dates": "November 2013 - present",
+              "summary": [
+                "Fullstack developer for Oroeco.com – a platform that estimates personal carbon footprints based on survey and financial data."
+              ],
+              "accomplishments": [
+                "Carbon footprint calculations based off of survey data.",
+                "Dynamic user interface for survey questions.",
+                "Carbon footprint calculations based off of Green Button utility data.",
+                "Dynamic graphics for visualizing electricity consumption.",
+                "API development for Oroeco mobile apps.",
+                "Implementation of Social Media features (Facebook, Twitter, Google, LinkedIn API)"
+              ]
+            }
+          },
+          {
+            "title": "Climateworks Foundation Content Curator and Developer",
+            "weight": 10,
+            "details": {
+              "type": "contract",
+              "dates": "March 2012 – December 2013",
+              "overview": [
+                "Developer and content curator for Climateworks intranet for global network of grantees and partner organizations. Development of API's of climate data and funding. Rendering data with interactive user graphics (SVG, Javascript, RaphaelJs). Worked closely with network leaders to identify their need to visualize and share where climate philanthropy is most effectively applied using data from Bloomberg."
+              ]
+            }
+          },
+          {
+            "title": "Other Machine Co",
+            "weight": 10,
+            "details": {
+              "type": "contract",
+              "dates": "August 2013 - October 2013",
+              "overview": "Developed a payments API through Amazon AWS for a startup 3D printing company. Built a Heroku proxy using NodeJs in order to securely make payments."
+            }
+          }
+        ]
+      },
+      {
+        "title": "Non-Programming",
+        "children": [
+          {
+            "title": "Rancho Electronico – Programming Workshops",
+            "weight": 3,
+            "details": [
+              "I lead a Javascript programming workshop at a workspace in the Obrera neighborhood of Mexico City."
+            ]
+          },
+          {
+            "title": "Engineers Without Borders - IT Project Manager",
+            "weight": 2,
+            "detials": [
+              "Fundraising and management of a computer project to support a water project in Arombe, Kenya."
+            ]
+          },
+          {
+            "title": "Drew High School - Teaching Assistant and Tutor",
+            "weight": 2,
+            "details": [
+              "Tutored and assistant taught high schools students at the Drew School for two years after completing my Masters program. Subjects included Spanish, Math, and Science."
+            ]
+          },
+          {
+            "title": "Samasource – Grant Writer",
+            "weight": 3,
+            "details": [
+              "Grant writer for Samasource, a San Francisco non-profit that connects low income communities in India and Kenya with opportunities in the tech sector."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Open Source",
+        "children": [
+          {
+            "title": "Android Reegle Library",
+            "weight": 4,
+            "link": "https://github.com/ArbolIntl/ReegleLibrary",
+            "details": [
+              "Open source project using Reegle clean energy linked open data api. Users can save search criteria and a list of favorite documents. IntelliJ IDE."
+            ]
+          },
+          {
+            "title": "Ruby GreenButton",
+            "weight": 5,
+            "link": "https://github.com/cew821/greenbutton",
+            "details": [
+              "Worked with DOE fellow on Ruby parser for the GreenButton utility energy data standard."
+            ]
+          },
+          {
+            "title": "RaphaGraph",
+            "weight": 3,
+            "link": "http://raphagraph.arbol.org/",
+            "details": [
+              "Javascript SVG charting library using RaphaelJs. Includes high variable pie and bar charts."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]}

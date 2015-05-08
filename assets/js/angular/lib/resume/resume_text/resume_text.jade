@@ -1,0 +1,65 @@
+div(id="resume_text", class="container-fluid")
+	h2 {{resume.title}}
+	div(class="panel panel-info")
+		div(class="panel-heading")
+			h3(class="panel-title") {{about.title}}
+		div(class="panel-body")
+			p(data-ng-repeat="paragraph in about.details.summary") {{paragraph}}
+	div(class="panel panel-info")
+		div(class="panel-heading")
+			h3(class="panel-title") {{education.title}}
+		div(class="panel-body")
+			div(data-ng-repeat="edu in education.children")
+				h4(data-ng-hide="!!edu.link") {{edu.title}}
+				h4(data-ng-hide="!edu.link") 
+					a(data-ng-href="{{edu.link}}", target="_blank") {{edu.title}}
+				h5(data-ng-repeat="subtitle in edu.subtitles") {{subtitle}}
+				p(data-ng-repeat="paragraph in edu.details.summary") {{paragraph}}
+	div(class="panel panel-info")
+		div(class="panel-heading")
+			h3(class="panel-title") {{experience.title}}
+		div(class="panel-body")
+			h4 {{programming.title}}
+			div(data-ng-repeat="child in programming.children")
+				h5(data-ng-hide="!!child.link") {{child.title}}
+				h5(data-ng-hide="!child.link") 
+					a(data-ng-href="{{child.link}}", target="_blank") {{child.title}}
+				h6(data-ng-repeat="subtitle in child.subtitles") {{subtitle}}
+				p(data-ng-repeat="paragraph in child.details.summary") {{paragraph}}
+				div(class="arb-details-list-title") {{child.details.list_title}}
+				ul
+					li(data-ng-repeat="item in child.details.list") {{item}}
+		div(class="panel-body")
+			h4 {{non_programming.title}}
+			div(data-ng-repeat="child in non_programming.children")
+				h5(data-ng-hide="!!child.link") {{child.title}}
+				h5(data-ng-hide="!child.link") 
+					a(data-ng-href="{{child.link}}", target="_blank") {{child.title}}
+				h6(data-ng-repeat="subtitle in child.subtitles") {{subtitle}}
+				p(data-ng-repeat="paragraph in child.details.summary") {{paragraph}}
+				div(class="arb-details-list-title") {{child.details.list_title}}
+				ul
+					li(data-ng-repeat="item in child.details.list") {{item}}
+		div(class="panel-body")
+			h4 {{open_source.title}}
+			div(data-ng-repeat="child in open_source.children")
+				h5(data-ng-hide="!!child.link") {{child.title}}
+				h5(data-ng-hide="!child.link") 
+					a(data-ng-href="{{child.link}}", target="_blank") {{child.title}}
+				h6(data-ng-repeat="subtitle in child.subtitles") {{subtitle}}
+				p(data-ng-repeat="paragraph in child.details.summary") {{paragraph}}
+				div(class="arb-details-list-title") {{child.details.list_title}}
+				ul
+					li(data-ng-repeat="item in child.details.list") {{item}}
+	div(class="panel panel-info")
+		div(class="panel-heading")
+			h3(class="panel-title") {{skills.title}}
+		div(class="panel-body")
+			ul
+				li(data-ng-repeat="child in skills.children")
+					span(data-ng-hide="!!child.link") {{child.title}}
+					span(data-ng-hide="!child.link") 
+						a(data-ng-href="{{child.link}}", target="_blank") {{child.title}}
+					ul
+						li(data-ng-repeat="comment in child.details.summary") {{comment}}
+	

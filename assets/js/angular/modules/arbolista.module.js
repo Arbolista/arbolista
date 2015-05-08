@@ -1,3 +1,5 @@
 (function(){
-	angular.module("arbolista", []);	
+	angular.module("arbolista", [
+		'ui.router'
+	]);	
 })();
