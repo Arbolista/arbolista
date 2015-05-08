@@ -1,0 +1,4 @@
+span(onfocus="this.blur();", data-ng-hide="!!email && !waiting", class="btn btn-link btn-mini", data-ng-click="getEmail()") Email
+span(data-ng-show="waiting", class="btn btn-mini", disabled)
+	i(class="fa fa-spinner")
+a(onfocus="this.blur();", data-ng-hide="!email && !waiting", class="btn btn-mini", data-ng-href="mailto:{{email}}?{{attrs}}") {{email}}

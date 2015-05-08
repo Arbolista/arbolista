@@ -12,13 +12,21 @@
 			"language": "Idioma"
 		},
 		"about": {
-			"view_as_text": "View as text."
+			"view_as_text": "Alterna texto."
 		},
 		"work_with_us": {
-			"text": "ola, trabalha com nos."
-		},
-		"hire_us": {
-			"text": "ola, contrata-nos."
+			 "title": "Trabalha com Nós",
+			 "text": ["Atualmente, não estou procurando mais engenheiros. Contudo, dentro de seis meses, eu gostaria ter mais contratos de web (Rails, Node, and Android) e eu quereria mais gente para realizar-os."]
+		 },
+		 "hire_us": {
+			 "title": "Contrata-Nos",
+			 "text": [
+			 "Eu estou buscando mais contratos de web, especialmente com companhias que querem crescer internacionalmente e se impartam questões de sustentabilidade.",
+			 "Posso trabalhar para sustentar suas aplicações mobiles ou como um engenheiro full stack - eu tenho uma diversidade de habilidades e posso usar esta flexibilidade para sustentar suas metas diversas. Si me queiram trabalhar com code legado, eu posso adaptar-me pronto, especialmente em Ruby, Javascript e Python.",
+			 "É importante dizer que eu estou buscando contratos remotos e que me importaria minha responsabilidade de comunicação tão importante como minha responsabilidade de programar. Meu objetivo principal não é escrever o code mais adornado, mas fornecer serviços técnicos para que vocês podem realizar suas metas efetivamente.",
+			 "Eu não estou disponível a trabalhar por ações, a menos que seja possível trabalhar por salário dentro de seis meses.",
+			 "Si queiram contactar-me, por favor pressionem o link abaixo. Muito obrigado."
+			 ]
 		}
 	}
 }

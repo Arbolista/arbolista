@@ -12,13 +12,21 @@
 			"language": "Idioma"
 		},
 		"about": {
-			"view_as_text": "View as text."
+			"view_as_text": "Alterna texto."
 		},
 		"work_with_us": {
-			"text": "hola, trabaja con nosotros."
-		},
-		"hire_us": {
-			"text": "hola, contratanos."
+			 "title": "Trabaja con Nosotros",
+			 "text": ["En este momento, no estoy buscando mas ingenieros para contratar. Sin embargo, dentro de algunos meses me gustaría tener más proyectos de Ruby, Node, Javascript y Android y contratar en la Ciudad de México."]
+		 },
+		 "hire_us": {
+			 "title": "Contratanos",
+			 "text": [
+				 "Estoy buscando más contratos web development, especialmente con compañías que quieren crecer internacionalmente y a quien les importan temas de sustenabilidad.",
+				" Puedo apoyar sus aplicaciones móviles con RESTful APIs eficazmente y trabajar como ingeniero full stack - tengo una diversidad de habilidades que me ayuda trabajar flexiblemente para apoyar sus metas. Si me quieren trabajar con code legado, puedo ajustarme pronto con Node, Rails, o Python.",
+				"Si estén abiertos a contratos remotos, me importaría mis responsabilidades de comunicación tanto como mis responsabilidades de programar. Mi meta no es escribir el code más adornado, sino proveer servicios técnicos y comunicar para que ustedes puedan cumplir sus metas con eficaz y calidad.",
+				"Ahora no estoy disponible a trabajar por acciones, a menos que un saldo esté factible dentro de seis meses.",
+				 "Contactame por el email abajo. Gracias."
+		      ]
 		}
 	}
 }

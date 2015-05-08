@@ -29,6 +29,9 @@ module.exports = function(app, handlers, fn){
 		/* Work With Us page. */
 		app.get('/work-with-us', handlers.fnWorkWithUs);
 		
+		/* Send Encrypted Email */
+		app.get('/data/email', handlers.fnSendEmail);
+		
 		/* About page. */
 		i18n.addRoute('/:lng', ['en', 'es', 'pt'], app, 'get', handlers.fnAbout);
 		i18n.addRoute('/:lng/routes.about', ['en', 'es', 'pt'], app, 'get', handlers.fnAbout);	

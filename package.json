@@ -1,11 +1,13 @@
 {
   "name": "arbolista",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Arbolista LLC company site.",
   "main": "index.js",
   "scripts": {
     "test": "test",
     "start": "node ./bin/www"
+  },
+  "devDependencies": {
   },
   "dependencies": {
     "angular": "~1.3.15",
@@ -21,7 +23,11 @@
     "less":"~2.5.0",
     "connect-assets":"~4.7.0",
     "connect-jade-static":"~0.2.2",
-    "yamljs": "~0.2.2"
+    "yamljs": "~0.2.2",
+    "node-forge":"~0.6.26"
+  },
+  "engines":{
+  	"node":"0.10.35",
   },
   "repository": {
     "type": "git",

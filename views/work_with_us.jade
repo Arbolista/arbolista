@@ -1,3 +1,8 @@
 extends layout
 block content
-	p= i18n.t("views.work_with_us.text")
+	div(class="container-fluid")
+		div(style="margin-top:15px;", data-ng-app="arbolista", data-ng-controller="HireUsController as huc", class="panel panel-info")
+			div(class="panel-heading")= i18n.t("views.work_with_us.title")
+			div(class="panel-body")
+				p= i18n.t("views.work_with_us.text")
+				arb-email(attrs="email_attrs")

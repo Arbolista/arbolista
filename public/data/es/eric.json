@@ -1,0 +1,262 @@
+ { "title": "Eric Hulburd",
+   "children":[
+   {
+     "title": "Contacto",
+     "children":[
+	     {"title":"Ciudad de México", "weight":1 },
+	     {"title":"San Francisco, CA", "weight":1 },
+	     {"title":"eric@arbol.org", "weight":2 },
+	     {"title":"805-712-8818", "weight":1 }
+     ]
+   },
+   {
+     "title": "Sobre",
+     "weight": 5,
+     "key": "about",
+     "details": {
+	     "summary": [
+	      "Yo soy un web developer con cuatro años de experiencia en varios idiomas y frameworks. Después de graduarme de Stanford, con un enfoque en ingeniería de energía y el medio ambiente, quise aprender programar para hacer uso de su eficiencia y conectar gente que quiere resolver problemas del nuestro mundo en crecimiento.",
+	      "Ahora yo vivo en la Ciudad de México, aunque visite a San Francisco por unas semanas cada año. Estoy buscando más contratos y proyectos para desarrollar y colaborar con más programadores y empresas en Las Americas",
+	      "Yo soy un developer fullstack - soy flexible para que pueda cumplir los requisitos de mis clientes. Tengo mucha experiencia en el desarrollo de APIs de servicios del web and aplicaciones móviles. También, he hecho bastantes visualizaciones interactivas de datos en el web con Javascript y SVG, además de formas interactivas y dinámicas. Tengo un proyecto de Android y estoy buscando hacer más en los próximos meses."
+	    ]
+     }
+   },
+ {
+     "title": "Experiencia",
+     "key":"experience",
+     "children": [
+       {
+         "title": "Programming",
+         "key": "programming",
+         "children": [
+           {
+             "title": "Oroeco",
+             "weight": 30,
+             "subtitles": [
+             "Fullstack Developer",
+             "Noviembre 2013 - presente, contrato"
+             ],
+             "link": "https://www.oroeco.com",
+             "details": {
+               "summary": [
+                 "Fullstack developer por Oroeco.com – calculamos la huella de Carbonó de nuestro usuarios basado en datos financieros y encuestas."
+               ],
+               "list_title": "Logros Personales",
+               "list": [
+					"Cálculos de la huella de carbono basado en encuestas.",
+					"Interfaz dinámica para las encuestas",
+					"Cálculos de la huella de carbono basado en datos de electricidad.",
+					"Visualizaciones de consumo de electricidad.",
+					"API development y documentación para las aplicaciones móviles.",
+					"Implementación de las funciones de social media (Facebook, Twitter, Google, LinkedIn APIs)."
+               ],
+               "images":[
+               {"src":"/images/climate_survey.png"},
+               {"src":"/images/climate_impacts.png"}
+               ]
+             }
+           },
+           {
+             "title": "Climateworks Foundation",
+             "subtitles": [
+             "Curador y Developer",
+             "Marzo 2012 – Diciembre 2013, contrato"
+             ],
+             "link": "http://www.climateworks.org/about-us/",
+             "weight": 10,
+             "details": {
+               "summary": [
+					"Curador de contenidos y developer de la intranet de la Climateworks Foundation, un red que incluyó beneficiarios y organizaciones socias globales. Con mi colega, desarrollé APIs con datos financieros y climáticos y los visualicé con gráficos interactivos (Javascript SVG librarles). Trabajaba con dirigentes de varias organizaciones para identificar sus metas de asegurar el mayor impacto de filantropía en cambio climático."
+               ]
+             }
+           },
+           {
+             "title": "Other Machine Co",
+             "subtitles": [
+	             "Payments Fullstack Developer",
+	             "August 2013 - October 2013, contract"
+             ],
+             "link":"https://othermachine.co/",
+             "weight": 10,
+             "details": {
+               "summary": [
+               		"Desarrollé un API de pagos por Amazon Web Services para una compañía de 3D printing. Usa NodeJs en Heroku para asegurar los pagos."
+               ]
+             }
+           }
+         ]
+       },
+       {
+         "title": "Non-Programming",
+         "key": "non_programming",
+         "children": [
+           {
+             "title": "Rancho Electronico",
+             "subtitles": ["Talleres de Programación"],
+             "weight": 3,
+             "link": "http://ranchoelectronico.org/",
+             "details": {
+             "summary": [
+	              "Dirijo un taller de Javascript en el vecindario Obrera en la Ciudad de México."
+	            ]
+             }
+           },
+           {
+             "title": "Ingenieros Sin Fronteras",
+             "subtitles":["Gerente IT"],
+             "weight": 2,
+             "link":"http://www.ewb-sfp.org/",
+             "details": {
+	             "summary": [
+		              "Hacía fundraising y dirección de un proyecto de computadoras para apoyar un proyecto de agua en Arombe, Kenya."
+		          ]
+	             }
+           },
+           {
+             "title": "Drew High School",
+             "subtitles":["Tutor y Profesor"],
+             "weight": 2,
+             "link":"http://www.drewschool.org/page",
+             "details": {
+	             "summary": [
+	              "Era un profesor y tutor por una escuela preparatoria en San Francisco por dos años antes de graduarme de mi programa de maestría. Enseñaba español, matemáticas, historia, y ciencias."
+	            ]
+             }
+           },
+           {
+             "title": "Samasource",
+             "subtitles":["Escritor de Becas"],
+             "link":"http://www.samasource.org/",
+             "weight": 3,
+             "details": {
+	             "summary": [
+	               "Escritor de becas por Samasource, una organización basado en San Francisco que conecta comunidades de bajos recursos en India y Kenia con oportunidades en el sector de tecnología."
+	            ]
+             }
+           }
+         ]
+       },
+       {
+         "title": "Open Source",
+         "key": "open_source",
+         "children": [
+           {
+             "title": "Android Reegle Library",
+             "weight": 4,
+             "link": "https://github.com/ArbolIntl/ReegleLibrary",
+             "details": {
+	             "summary": [
+	             	"Proyecto open source usando el Reegle API, que busca información de tecnología sustentable con linked open data. Usuarios pueden guardar criterios de búsqueda y una lista de documentos favoritos. Usaba IntelliJ IDE."
+	            ]
+             }
+           },
+           {
+             "title": "Ruby GreenButton",
+             "weight": 5,
+             "link": "https://github.com/cew821/greenbutton",
+             "details": {
+	             "summary": [
+	              	"Trabajaba con el Departamento de Energía (de los Estados Unidos) para hacer una librería de Ruby que lee datos de Green Button (un estándar de datos del consumo de electricidad) y los pone en un objeto de Ruby."
+	            ]
+             }
+           },
+           {
+             "title": "RaphaGraph",
+             "weight": 3,
+             "link": "http://raphagraph.arbol.org/",
+             "details": {
+	             "summary": [
+	             	"Una librería de Javascript que usa RaphaelJs para crear gráficos en SVG. Incluye gráficos de torta y barras."
+	            ]
+             }
+           }
+         ]
+       }
+     ]
+   },  
+   {
+     "title": "Educación",
+     "key": "education",
+     "children": [
+       {
+         "title": "Bachillerato de Ingeniería",
+         "subtitles": ["Universidad Stanford"],
+         "weight": 6,
+         "details": {
+         "summary": [
+          "Me gradué con honradez el primer año del Programa de Energía y Atmósfera del Departamento de Ingeniería de Stanford."
+        ]
+         },
+         "link": "https://cee.stanford.edu/programs/atmosphereenergy"
+       },
+       {
+         "title": "Maestría de Historia",
+         "subtitles": ["Universidad Stanford"],
+         "weight": 4,
+         "details": {
+         "summary": [
+          "Después de graduarme en ingeniería, tomaba tiempo para enfocarme en mis habilidades de escribir y comunicar, además de explorar mi interés en la historia de política exterior de los Estados Unidos."
+        ]
+         }
+       }
+     ]
+   },
+   {
+     "title": "Habilidades de Ingeniería",
+     "key":"skills",
+     "children": [
+       {
+         "title": "Ruby/Rails",
+         "weight": 3
+       },
+       {
+         "title": "HTML/CSS",
+         "weight": 3
+       },
+       {
+         "title": "Javascript/Angular/Node",
+         "weight": 3,
+         "details": {
+         "summary": [
+          "Me gusta mucho Javascript por su diversidad de ambientes de programación - cliente, servidor, y móvil.",
+"Tengo la más experiencia en Angular, Node, y Javascript del DOM, y también me adapto rápido a nuevas librerías."
+        ]
+         }   
+       },
+       {
+         "title": "Análisis de Ciclo de Vida",
+"subtitles":["Contabilidad de Carbono "],
+         "weight": 2,
+         "details": {
+         "summary":[
+         "Este es un tema que me interesa mucho y me gustaría desarrollar más bases de datos y métodos abiertos para evaluar productos y servicios desde el punto de vista de su impacto en el medio ambiente.",
+"Hemos usado el API de Berkeley Cool Climate Network calculadora de carbono extensamente en Oroeco, que utiliza métodos de análisis de ciclo de la vida en sus cálculos."
+         ]
+         },
+         "link": "http://www.eiolca.net/"
+       },
+       {
+         "title": "Postgres (SQL)",
+         "weight": 2
+       },
+       {
+         "title": "Java/Android",
+         "weight": 1,
+         "details": {
+         "summary":[
+         "Solamente he hecho una aplicación de Android, pero quiero hacer más con colegas nuevas."
+         ]
+         }
+       },
+       {
+         "title": "Python/Django",
+         "weight": 1,
+         "details": {
+         "summary": [
+         "Era mi primer idioma de programación. Ahora lo uso para escribir algoritmos en la plataforma de inversión Quantopian."
+         ]
+         }
+       }
+     ]
+   }
+ ]}

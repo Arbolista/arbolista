@@ -28,7 +28,8 @@
 			localStorage.resume_format = format;			
 		}
 		
-		d3.json("/data/eric.json", function(error, data) {
+		var lang = $("html").attr("lang");
+		d3.json("/data/"+lang+"/eric.json", function(error, data) {
 			$scope.resume = data;
 			setFormat(format);
 		});		

@@ -15,10 +15,18 @@
 			"view_as_text": "View as text."
 		},
 		"work_with_us": {
-			"text": "hello, work with us."
+			"title": "Work With Us",
+			"text": ["Currently, I am not looking for additional engineers to contract. However, in the near future I hope to have additional projects (Rails, Node, and Android) to work on in Mexico City."]
 		},
 		"hire_us": {
-			"text": "hello, hire us."
+			"title": "Contract Us",
+			"text": [
+				"I am currently looking for additional web contracts, especially with companies and organizations looking to increase their global presence and are interested in driving the global economy to a more sustainable one.",
+				"I can quickly and effectively support your mobile applications with RESTful API services or as a full stack engineer - I have a diverse set of skills that will enable me to exercise flexibility to support your goals. If invited to work on legacy code, I have the most experience with Rails and Node, though I could adapt quickly to a Python environment as well.",
+				"If you are open to remote contracts, I will take communication responsibilities as seriously as my programming responsibilities. My end goal is not to write perfect code - my goal is to provide technical services and communicate so you can meet your goals quickly and effectively.",
+				"I am currently not available to work for equity, unless the timeframe towards paid contract is short (six months or less).",
+				"If you would like to contact me, please use the email below. Thank you for your interest."
+			]
 		}
 	}
 }

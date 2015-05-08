@@ -4,5 +4,6 @@
 //= require angular-ui-router/release/angular-ui-router
 //= require d3/d3.min.js
 //= require bubbles
+//= require forge.min.js
 //= require_tree ./angular/modules
 //= require_tree ./angular/lib
