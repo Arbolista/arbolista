@@ -16,8 +16,8 @@
     "details": {
     	"summary": [
 	      "I am a self-taught developer with four years of development experience in several languages and frameworks. After originally graduating from Stanford with a focus on energy and environmental engineering, I wanted to apply information technology to leverage efficiency and social connectedness to address the challenges of our burgeoning population and consumption.",
-	      "I now primarily reside in Mexico City, though I return to San Francisco for weeks at a time. I am currently looking for additional projects to develop and manage through my development company.",
-	      "We are full stack development company with particular expertise in RESTful API services for web and mobile applications. We also have substantial front end experience in developing user interactive forms and graphics. We have Android development experience and are looking to increase our mobile production in the coming months."
+	      "I now primarily reside in Mexico City, though I return to San Francisco for several weeks annually. I am currently looking for additional projects to develop and manage through my development company.",
+	      "I am a full stack developer with particular expertise in RESTful API services for web and mobile applications. I have substantial front end experience in developing user interactive forms and graphics. My Android experience is developing and I hope to release new apps in the coming months."
 	    ]
     }
   },
@@ -44,8 +44,8 @@
               "list_title": "Accomplishments",
               "list": [
                 "Carbon footprint calculations based off of survey data.",
-                "Dynamic user interface for survey questions.",
-                "Carbon footprint calculations based off of Green Button utility data.",
+                "Dynamic user interface for survey input.",
+                "Carbon footprint calculations based off of Green Button utility data (a DOE XML standard).",
                 "Dynamic graphics for visualizing electricity consumption.",
                 "API development for Oroeco mobile apps.",
                 "Implementation of Social Media features (Facebook, Twitter, Google, LinkedIn API)"
@@ -130,7 +130,7 @@
             "weight": 3,
             "details": {
             	"summary": [
-	              "Grant writer for Samasource, a San Francisco non-profit that connects low income communities in India and Kenya with opportunities in the tech sector."
+	              "Grant writer for Samasource, a San Francisco non-profit that connects low income communities in India and Kenya with economic opportunities in the tech sector."
 	            ]
             }
           }
@@ -146,7 +146,7 @@
             "link": "https://github.com/ArbolIntl/ReegleLibrary",
             "details": {
             	"summary": [
-	              "Open source project using Reegle clean energy linked open data api. Users can save search criteria and a list of favorite documents. IntelliJ IDE."
+	              "Open source project using Reegle clean energy linked open data api. Users can save search criteria and a list of favorite documents."
 	            ]
             }
           },
@@ -156,7 +156,7 @@
             "link": "https://github.com/cew821/greenbutton",
             "details": {
             	"summary": [
-	              "Worked with DOE fellow on Ruby parser for the GreenButton utility energy data standard."
+	              "Worked with DOE to develop a Ruby parser for the GreenButton utility energy data standard."
 	            ]
             }
           },
@@ -228,7 +228,7 @@
         "weight": 2,
         "details": {
         	"summary":[
-        		"This is an area which I would really like to see open data and applications developed for evaluating products and services in terms of their environmental impact.",
+        		"I would really like to work on developing open data and applications for evaluating products and services in terms of their environmental impact.",
         		"We have used the Berkeley Cool Climate Network carbon calculator API extensively at Oroeco, which rests on input-output life cycle data analysis."
         	]
         },
@@ -243,7 +243,7 @@
         "weight": 1,
         "details": {
         	"summary":[
-        		"I've only done a monthly long open source project in Android, but am looking to expand here."
+        		"I've only done a month long open source project in Android, but am looking to expand here."
         	]
         }
       },
@@ -252,7 +252,7 @@
         "weight": 1,
         "details": {
         	"summary": [
-        		"First programming language I ever learned. Now using it to write investment algorthms at Quantopian.com."
+        		"My first programming language. Now using it to write investment algorthms at Quantopian.com."
         	]
         }
       }
