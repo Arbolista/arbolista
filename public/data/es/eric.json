@@ -34,12 +34,12 @@
              "weight": 30,
              "subtitles": [
              "Fullstack Developer",
-             "Noviembre 2013 - presente, contrato"
+             "Noviembre 2013 - hasta la actualidad, contrato"
              ],
              "link": "https://www.oroeco.com",
              "details": {
                "summary": [
-                 "Fullstack developer por Oroeco.com – calculamos la huella de Carbonó de nuestro usuarios basado en datos financieros y encuestas."
+                 "Fullstack developer para Oroeco.com – calculamos la huella de carbono de nuestros usuarios basado en datos financieros y encuestas."
                ],
                "list_title": "Logros Personales",
                "list": [
@@ -66,7 +66,7 @@
              "weight": 10,
              "details": {
                "summary": [
-					"Curador de contenidos y developer de la intranet de la Climateworks Foundation, un red que incluyó beneficiarios y organizaciones socias globales. Con mi colega, desarrollé APIs con datos financieros y climáticos y los visualicé con gráficos interactivos (Javascript SVG librarles). Trabajaba con dirigentes de varias organizaciones para identificar sus metas de asegurar el mayor impacto de filantropía en cambio climático."
+					"Curador de contenidos y developer de la intranet de la Climateworks Foundation, una red que incluyó beneficiarios y organizaciones globales. En colaboración con otro ingeniero, desarrollé APIs con datos financieros y climáticos, los cuales fueron visualizados con Javascript SVG libraries. Analizaba datos con dirigentes de varias organizaciones para identificar las oportunidades más eficaces en mitigar el cambio climático."
                ]
              }
            },
@@ -74,13 +74,13 @@
              "title": "Other Machine Co",
              "subtitles": [
 	             "Payments Fullstack Developer",
-	             "August 2013 - October 2013, contract"
+	             "Agosto 2013 - Octubtre 2013, contrato"
              ],
              "link":"https://othermachine.co/",
              "weight": 10,
              "details": {
                "summary": [
-               		"Desarrollé un API de pagos por Amazon Web Services para una compañía de 3D printing. Usa NodeJs en Heroku para asegurar los pagos."
+               		"Desarrollé un API de pagos con Amazon Web Services para una compañía de impresión 3D, la cual usa NodeJs y Heroku."
                ]
              }
            }
@@ -119,7 +119,7 @@
              "link":"http://www.drewschool.org/page",
              "details": {
 	             "summary": [
-	              "Era un profesor y tutor por una escuela preparatoria en San Francisco por dos años antes de graduarme de mi programa de maestría. Enseñaba español, matemáticas, historia, y ciencias."
+	              "Era un profesor y tutor para una escuela preparatoria en San Francisco por dos años antes de graduarme de mi programa de maestría. Enseñaba español, matemáticas, historia, y ciencias."
 	            ]
              }
            },
@@ -130,7 +130,7 @@
              "weight": 3,
              "details": {
 	             "summary": [
-	               "Escritor de becas por Samasource, una organización basado en San Francisco que conecta comunidades de bajos recursos en India y Kenia con oportunidades en el sector de tecnología."
+	               "Escritor de becas para Samasource, una organización basado en San Francisco que conecta comunidades de bajos recursos en India y Kenia con oportunidades en el sector de tecnología."
 	            ]
              }
            }
