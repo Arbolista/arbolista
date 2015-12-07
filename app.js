@@ -49,8 +49,11 @@ var handlers = require(__dirname + "/routes/route_handlers"),
 	handleErrors = require(__dirname + "/config/handle_errors"),
 	listen = require(__dirname + "/config/listen");
 
+console.log("A")
 routeAndTranslate(app, handlers, function(){
+  console.log("B")
 	handleErrors(app, function(){
+    console.log("C")
 		listen(app);
 	});
 });
