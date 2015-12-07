@@ -38,7 +38,7 @@ app.use(require("connect-assets")({
   paths: ["assets/js", "assets/css", "bower_components"],
   build: false,
   buildDir: false,
-  compile: false,
+  //compile: false,
   compress: false
 }));
 
