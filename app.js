@@ -53,11 +53,6 @@ routeAndTranslate(app, handlers, function(){
 	handleErrors(app, function(){
     console.log("C")
 		listen(app);
-    
-    // compile CSS and Javascript library into application.js & application.css
-    app.use(require("connect-assets")({
-      paths: ["assets/js", "assets/css", "bower_components"]
-    }));
 	});
 });
 
