@@ -23,11 +23,9 @@ app.use(cookieParser());
 /*
  * Assets & Static
  */
-console.log("=== Assets ===")
+
 // raw data and images.
-console.log("=== a ===")
 app.use(express.static(path.join(__dirname, 'public')));
-console.log("=== b ===")
 // serve angular jade templates as html
 var jadeStatic = require("connect-jade-static");
 app.use(jadeStatic({
@@ -36,7 +34,13 @@ app.use(jadeStatic({
     maxAge: 100,
     jade: { pretty: true }
 }));
-console.log("=== c ===")
+app.use(require("connect-assets")({
+  paths: ["assets/js", "assets/css", "bower_components"],
+  build: false,
+  buildDir: false,
+  compile: false,
+  compress: false
+}));
 
 /*
  * Routing and translation
@@ -47,11 +51,8 @@ var handlers = require(__dirname + "/routes/route_handlers"),
 	handleErrors = require(__dirname + "/config/handle_errors"),
 	listen = require(__dirname + "/config/listen");
 
-console.log("A")
 routeAndTranslate(app, handlers, function(){
-  console.log("B")
 	handleErrors(app, function(){
-    console.log("C")
 		listen(app);
 	});
 });

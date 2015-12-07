@@ -5,12 +5,5 @@ module.exports = function(app){
 	  var host = server.address().address;
 	  var port = server.address().port;
     console.log('app listening at http://%s:%s', host, port);
-    // compile CSS and Javascript library into application.js & application.css
-    console.log("=== using assets ===")
-    app.use(require("connect-assets")({
-      paths: ["assets/js", "assets/css", "bower_components"],
-      build: false
-    }));	
-    console.log("=== using assets loaded ===")
 	});
 };
