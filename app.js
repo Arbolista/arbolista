@@ -37,10 +37,6 @@ app.use(jadeStatic({
     jade: { pretty: true }
 }));
 console.log("=== c ===")
-// compile CSS and Javascript library into application.js & application.css
-app.use(require("connect-assets")({
-	paths: ["assets/js", "assets/css", "bower_components"]
-}));
 
 /*
  * Routing and translation
@@ -57,6 +53,11 @@ routeAndTranslate(app, handlers, function(){
 	handleErrors(app, function(){
     console.log("C")
 		listen(app);
+    
+    // compile CSS and Javascript library into application.js & application.css
+    app.use(require("connect-assets")({
+      paths: ["assets/js", "assets/css", "bower_components"]
+    }));
 	});
 });
 
