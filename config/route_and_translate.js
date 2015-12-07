@@ -1,5 +1,6 @@
 // http://i18next.com/node/pages/doc_init.html
 module.exports = function(app, handlers, fn){
+	console.log("route and translate")
 	var i18n = require("i18next");
 
 	// Just set the value to the index where the language value

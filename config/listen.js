@@ -1,4 +1,5 @@
 module.exports = function(app){
+  console.log("Listen")
 	var server = app.listen(process.env.PORT || 3000, function () {
 	
 	  var host = server.address().address;
