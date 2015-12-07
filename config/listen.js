@@ -8,7 +8,8 @@ module.exports = function(app){
     // compile CSS and Javascript library into application.js & application.css
     console.log("=== using assets ===")
     app.use(require("connect-assets")({
-      paths: ["assets/js", "assets/css", "bower_components"]
+      paths: ["assets/js", "assets/css", "bower_components"],
+      build: false
     }));	
     console.log("=== using assets loaded ===")
 	});
