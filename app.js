@@ -25,8 +25,9 @@ app.use(cookieParser());
  */
 console.log("=== Assets ===")
 // raw data and images.
+console.log("=== a ===")
 app.use(express.static(path.join(__dirname, 'public')));
-
+console.log("=== b ===")
 // serve angular jade templates as html
 var jadeStatic = require("connect-jade-static");
 app.use(jadeStatic({
@@ -35,7 +36,7 @@ app.use(jadeStatic({
     maxAge: 100,
     jade: { pretty: true }
 }));
-
+console.log("=== c ===")
 // compile CSS and Javascript library into application.js & application.css
 app.use(require("connect-assets")({
 	paths: ["assets/js", "assets/css", "bower_components"]
