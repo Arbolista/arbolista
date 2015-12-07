@@ -23,7 +23,7 @@ app.use(cookieParser());
 /*
  * Assets & Static
  */
-
+console.log("=== Assets ===")
 // raw data and images.
 app.use(express.static(path.join(__dirname, 'public')));
 
@@ -44,7 +44,7 @@ app.use(require("connect-assets")({
 /*
  * Routing and translation
  */
-
+console.log("=== Routing and Translation ===")
 var handlers = require(__dirname + "/routes/route_handlers"),
 	routeAndTranslate = require(__dirname + "/config/route_and_translate"),
 	handleErrors = require(__dirname + "/config/handle_errors"),
