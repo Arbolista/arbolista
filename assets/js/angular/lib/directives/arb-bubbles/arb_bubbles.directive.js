@@ -34,7 +34,7 @@
 	// http://bl.ocks.org/mbostock/7607535
 	function Bubbles(data, id, $scope, $container){
 		this.o = {
-			height: function(){ return $(window).height() - $(".navbar").height(); },
+			height: function(){ return $(window).height() - $(".navbar").height() - 100; }, // also subtract footer height;
 			max_title_length: 20
 		};
 		

@@ -1,8 +1,9 @@
+var i18n = require("i18next");
 var fnAbout = function(req, res, next) {
 	  res.render('about', { title: 'arbolista', current_page: "about"});
 	},
 	fnHireUs = function(req, res, next) {
-	  res.render('hire_us', { title: 'arbolista', current_page: "hire_us" });
+	  res.render('hire_us', { title: 'arbolista', current_page: "hire_us"});
 	},
 	fnWorkWithUs = function(req, res, next) {
 	  res.render('work_with_us', { title: 'arbolista', current_page: "work_with_us" });
@@ -24,7 +25,7 @@ module.exports = {
 
 function encrypt(password) {
   var forge = require('node-forge');
-  var input = email = "eric+arbolista-no_spam@arbol.org";
+  var input = email = "opportunities@arbolista.mx";
 
   // 3DES key and IV sizes
   var keySize = 24;

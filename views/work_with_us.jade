@@ -1,8 +1,66 @@
 extends layout
+block meta
+  meta(property="og:url", content="http://www.arbolista.mx/es/trabaja-con-nosotros")
+  meta(property="og:title", content="Oportunidades de Programación")
+  meta(property="og:description", content="Se buscan dos programadores para trabajar en la CDMX.")
+  meta(property="og:image", content="http://www.arbolista.mx/images/oportunidades.png")
+  meta(property="", content="")
 block content
-	div(class="container-fluid")
-		div(style="margin-top:15px;", data-ng-app="arbolista", data-ng-controller="HireUsController as huc", class="panel panel-info")
-			div(class="panel-heading")= i18n.t("views.work_with_us.title")
-			div(class="panel-body")
-				p= i18n.t("views.work_with_us.text")
-				arb-email(attrs="email_attrs")
+  div(class="container-fluid", data-ng-controller="HireUsController as huc")
+    div(style="margin-top:15px;", class="panel panel-info")
+      div(class="panel-heading")= i18n.t("views.work_with_us.opportunity_details.title")
+      div(class="panel-body")
+        each text in i18n.t("views.work_with_us.opportunity_details.text", {returnObjectTrees: true})
+          p= text
+        h4= i18n.t("views.work_with_us.in_collaboration_with")
+        center
+          div(class="thumbnail arb-collaborator-thumbnail")
+            img(src="/images/semantic.gif")
+            div(class="caption")
+              h5
+                a(target="_blank", href="http://semantic.mx/") Semantic
+    div(style="margin-top:15px;", class="panel panel-info")
+      div(class="panel-heading")= i18n.t("views.work_with_us.look_and_offer.title")
+      div(class="panel-body")
+        each text in i18n.t("views.work_with_us.look_and_offer.text", {returnObjectTrees: true})
+          p= text
+    div(style="margin-top:15px;", class="panel panel-info")
+      div(class="panel-heading")= i18n.t("views.work_with_us.projects.title")
+      div(class="panel-body")
+        each text in i18n.t("views.work_with_us.projects.text", {returnObjectTrees: true})
+          p= text
+        ul
+          each example in i18n.t("views.work_with_us.projects.examples", {returnObjectTrees: true})
+            li
+              a(target="_blank", href=example.link)= example.label
+    div(style="margin-top:15px;", class="panel panel-info")
+      div(class="panel-heading")= i18n.t("views.work_with_us.technology.title")
+      div(class="panel-body")
+        each text in i18n.t("views.work_with_us.technology.text", {returnObjectTrees: true})
+          p= text
+        p= i18n.t("views.work_with_us.technology.languages")
+          ul
+            li Ruby (Rails)
+            li Python (Django)
+            li PHP
+            li Javascript (Node, Angular, React)
+        p= i18n.t("views.work_with_us.technology.basics")
+          ul
+            li HTML
+            li CSS (Sass, SCSS, Less, etc.)
+            li SQL
+    div(style="margin-top:15px;", class="panel panel-info")
+      div(class="panel-heading")= i18n.t("views.work_with_us.requirements.title")
+      div(class="panel-body")
+        ul
+          each text in i18n.t("views.work_with_us.requirements.text", {returnObjectTrees: true})
+            li= text
+    div(style="margin-top:15px;", class="panel panel-info")
+      div(class="panel-heading")= i18n.t("views.work_with_us.process.title")
+      div(class="panel-body")
+        each text in i18n.t("views.work_with_us.process.text", {returnObjectTrees: true})
+          p= text
+        ol
+          each step in i18n.t("views.work_with_us.process.steps", {returnObjectTrees: true})
+            li= step
+

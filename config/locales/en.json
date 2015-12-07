@@ -6,17 +6,82 @@
 	},
 	"views" : {
 		"layout" : {
-			"work_with_us" : "Work",
 			"hire_us" : "Hire",
 			"about" : "About",
+			"work_with_us": "Work with Us",
 			"language": "Language"
 		},
 		"about": {
 			"view_as_text": "View as text."
 		},
 		"work_with_us": {
-			"title": "Work With Us",
-			"text": ["Currently, I am not looking for additional engineers to contract. However, in the near future I hope to have additional projects (Rails, Node, and Android) to work on in Mexico City."]
+			"opportunity_details": {
+				"title": "Full Stack Engineer",
+				"text": [
+					"I am currently in the process of finding two additional engineers to help support my projects, as well as some of those of other freelance programmers I work with (see links below).",
+					"As an intern, we will expect you to work at least 24 hours per week with us (possibly as many as 40). We invite you to work alongside us at our office (located in Chihuahua 230, Colonia Roma CDMX). Your schedule will be flexible to accommodate your studies if necessary.",
+					"The first two months, we expect we will mostly focus on training you in the technologies we use in our projects (named below). Your direct involvement in our projects will depend on how well you advance - you will be compensated accordingly.",
+					"We will have at least two openings for 2016, which we expect to lead to full employment for 1-2 years."
+				]
+			},
+			"in_collaboration_with": "In collaboration with",
+			"look_and_offer": {
+				"title": "Who We're Looking for and What We Offer",
+				"text": [
+					"More than experience we are looking for interest, passion, and talent. More than a particular programming language, we are lookinig for intelligence, flexibility, and knowledge of fundamental programming concepts.",
+					"If you have these qualities, we are looking to invest in a long term professional relationship with you. In addition to competitive compensation, you will learn new technologies and about the role IT plays in the startup world. "
+				]
+			},
+			"projects": {
+				"title": "Our Projects",
+				"text": [
+					"We work on a range of different projects with clients from the United States and Mexico. We work with clients that focus on socio-economic and environmental benefits.",
+					"Below are some past and present clients. University of California Cool Campus Challenge and Oroeco is likely where you will begin contributing."
+				],
+				"examples": [
+					{"link": "http://www.coolcampuschallenge.org", "label": "University of California Cool Campus Challenge"},
+					{"link": "https://www.oroeco.com", "label": "Oroeco.com"},
+					{"link": "http://afdc.co/", "label": "Analytics Fire"},
+					{"link": "http://www.climateworks.org", "label": "the Climateworks Foundation"}
+				]
+			},
+			"technology": {
+				"title": "Our Technology",
+				"text": [
+					"Our focus is more on programming fundamentals rather than any specific language. This opens up more contracting possibilities and gives us the ability to choose our clients based on their goals, rather than their technology.",
+					"We are also increasingly leaning towards modern web stacks that focus on development of web and mobile applications that share a common server API."
+				],
+				"languages": "Our projects use the following languages",
+				"basics": "Additionally, these require an understanding of:"
+			},
+			"requirements": {
+				"title": "Requirements",
+				"text": [
+					"2-3 years of experience programming - either university level studying, open source contributions, or professional experience.",
+					"Written and spoken English",
+					"Understanding of basic IT technologies - HTML, CSS, SQL, object oriented programming, web architecture",
+					"Ability to commute and work at Chihuahua 230 20 hours per week (flexible schedule)"
+				]
+			},
+			"process": {
+				"title": "Hiring Process",
+				"text": [
+					"As mentioned, we are looking to provide an opportunity where you can learn practical prorgramming and business skills. We hope this leads to a long term professional releationship. We, therefore, want to ensure that we are investing our time and money into people that are talented, passionate, and reliable.",
+					"We take four steps before deciding to bring someone on:"
+				],
+				"steps":[
+					"You email us and tell us about your interest. Please provide example code (files or links to Git repositories), live sites/apps you've worked on, your resume, your current educational and professional status, and a brief statement of why this opportunity interests you.",
+					"If your background and code look like a good start, we will follow up with a phone call to get more information on your educational/professional background, your example code, and your statement of interest.",
+					"After the phone call, if your ability and interest seem like a good match, we will invite you to take a few online coding quizzes to assess your ability to problem solve.",
+					"Last, if you perform well on the quizzes, we will invite you to come work with us for a day on a specific problem. You will be compensated for this day and the quizzes."
+				]
+			},
+			"contact": {
+				"title": "Contact Us to Get Started"
+			},
+			"share": {
+				"title": "Share this Opportunity"
+			}
 		},
 		"hire_us": {
 			"title": "Contract Us",
@@ -28,5 +93,6 @@
 				"If you would like to contact me, please use the email below. Thank you for your interest."
 			]
 		}
+
 	}
 }

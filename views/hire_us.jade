@@ -1,9 +1,8 @@
 extends layout
 block content
 	div(class="container-fluid")
-		div(style="margin-top:15px;", data-ng-app="arbolista", data-ng-controller="HireUsController as huc", class="panel panel-info")
+		div(style="margin-top:15px;", data-ng-controller="HireUsController as huc", class="panel panel-info")
 			div(class="panel-heading")= i18n.t("views.hire_us.title")
 			div(class="panel-body")
 				each paragraph in i18n.t("views.hire_us.text", { returnObjectTrees: true })
 					p= paragraph
-				arb-email(attrs="email_attrs")

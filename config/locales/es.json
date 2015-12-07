@@ -15,8 +15,73 @@
 			"view_as_text": "Alterna texto."
 		},
 		"work_with_us": {
-			 "title": "Trabaja con Nosotros",
-			 "text": ["En este momento, no estoy buscando mas ingenieros para contratar. Sin embargo, dentro de algunos meses me gustaría tener más proyectos de Ruby, Node, Javascript y Android y contratar en la Ciudad de México."]
+			"opportunity_details": {
+				"title": "Full Stack Engineer",
+				"text": [
+					"Estoy buscando dos programadores para apoyar mis proyectos y unos proyectos de otros freelancers con quien colaboro (haz click en la enlace abajo).",
+					"Como colega, esperamos que puedes trabajar por lo menos 24 horas cada semana con nosotros (posiblemente hasta 40 horas). Te invitamos a trabajar en nuestra oficina (ubicadad en Chihuahua 230, Colonia Roma CDMX). Tu horario se puede ajustar por tus estudios.",
+					"Los primeros dos meses, esperamos que nos enfocaremos en tu entrenamiento en las tecnologías que ocupamos en nuestros proyectos. Tu participación directa en nuestros proyectos dependerá de tu progreso.",
+					"Tenemos dos oportunidades por el año 2015 y esperamos que pueden dirigirnos a una relación profesional a largo plazo."
+				]
+			},
+			"in_collaboration_with": "En colaboración con",
+			"look_and_offer": {
+				"title": "Quién Buscamos y Qué Ofrecemos",
+				"text": [
+					"Más que experiencia, estamos buscando interés, pasión, y talento. Más que un idioma en particular, estamos buscando inteligencia, flexibilidad, y conocimiento de conceptos fundamentales de programación.",
+					"Si estas palabras te describen, queremos invertir en tu aprendizaje y trabajar contigo por unos años. Además de una recompensa competetiva, aprenderás nuevas tecnologías y del papel de IT en el mundo de los startups."
+				]
+			},
+			"projects": {
+				"title": "Nuestros Proyectos",
+				"text": [
+					"Trabajamos en una variedad de proyectos con clientes de los Estados Unidos y México. Preferemos trabajar con clientes que se enfocan en beneficios socioeconómicos y ambientales.",
+					"Abajo son unos clientes con quien he trabajado. Probablemente, vas empezar con los proyectos de University of California y Oroeco."
+				],
+				"examples": [
+					{"link": "http://www.coolcampuschallenge.org", "label": "University of California Cool Campus Challenge"},
+					{"link": "https://www.oroeco.com", "label": "Oroeco.com"},
+					{"link": "http://afdc.co/", "label": "Analytics Fire"},
+					{"link": "http://www.climateworks.org", "label": "the Climateworks Foundation"}
+				]
+			},
+			"Tecnología": {
+				"title": "Nuestra Tecnología",
+				"text": [
+					"Como negocio, nos enfocamos en los fundamentales de programación en vez de un idioma en particular. Esto nos ofrece más oportunidades y nos regala la habilidad de elegir nuestros clientes por sus metas, en vez de su tecnología.",
+					"También nos enfocamos en web stacks modernos que facilitan el desarrollo de aplicaciones web y móviles que comparten una API común."
+				],
+				"languages": "Ocumpamos los siguientes idiomas:",
+				"basics": "Estos requieren un conocimiento de:"
+			},
+			"requirements": {
+				"title": "Requisitos",
+				"text": [
+					"2-3 años de experiencia de programación - o en la universidad, con proyectos de open source, o en el trabajo",
+					"Habilidad de comunicarte en Inglés",
+					"Conocimiento de los fundamentales de IT - HTML, CSS, SQL, object oriented programming, arquitectura del web",
+					"Habilidad de viajar diariamente al Chihuahua 230 por 24 horas por semana (horario flexible)"					
+				]
+			},
+			"process": {
+				"title": "Proceso de Contratación",
+				"text": [
+					"Como dicho, estamos buscando ofrecer una oportunidad donde puedes aprender habilidades prácticas de programación y emprendimiento. Esperamos que esta oportunidad dirige a una relación a largo plazo. Por eso, queremos asegurarnos que estamos invertiendo nuestros recursos a personas talentas, apasionadas, y confiables.",
+					"El proceso de contratación tiene cuatro pasos:"
+				],
+				"steps":[
+					"Mandanos un email y decirnos de tu interés. Incluye código ejemplar (archivos o enlaces a repositorios de Git), aplicaciones en el web a las cuales tu has contribuido, tu estatus educativo y profesional, y una declaración de tu interés.",
+					"Si tu código y experiencia nos parece bien, seguiremos con una llamada para conocerte y preguntarte un poco más de tu experiencia y interés.",
+					"Luego, si nos combinamos bien, te invitaremos a tomar unas pruebas online de programación para evaluar tu habilidad a resolver problemas nuevos..",
+					"Por fin, si haces las pruebas bien, te invitaremos a trabajar con nosotros por un día en un problema especifico. Recibirás una recompensa por las pruebas y el día de trabajo."
+				]
+			},
+			"contact": {
+				"title": "Contactanos para Empezar"
+			},
+			"share": {
+				"title": "Comparte la Oportunidad"
+			}
 		 },
 		 "hire_us": {
 			 "title": "Contratanos",
