@@ -1,10 +1,15 @@
 extends layout
 block meta
-  meta(property="og:url", content="http://www.arbolista.mx/es/trabaja-con-nosotros")
-  meta(property="og:title", content="Oportunidades de Programación")
-  meta(property="og:description", content="Se buscan dos programadores para trabajar en la CDMX.")
-  meta(property="og:image", content="http://www.arbolista.mx/images/oportunidades.png")
-  meta(property="", content="")
+  meta(property="og:url", content = page_url)
+  meta(property="og:title", content=i18n.t("meta.title"))
+  meta(property="og:description", content=i18n.t("meta.description"))
+  meta(property="og:image", content= host + i18n.t("meta.image"))
+  meta(property="twitter:card", content="summary_large_image")
+  meta(property="twitter:site", content="@arbolintl")
+  meta(property="twitter:creator", content="@arbolintl")
+  meta(property="twitter:title", content=i18n.t("meta.title"))
+  meta(property="twitter:description", content=i18n.t("meta.description"))
+  meta(property="twitter:image", content= host + i18n.t("meta.image"))
 block content
   div(class="container-fluid", data-ng-controller="HireUsController as huc")
     div(style="margin-top:15px;", class="panel panel-info")
@@ -12,13 +17,14 @@ block content
       div(class="panel-body")
         each text in i18n.t("views.work_with_us.opportunity_details.text", {returnObjectTrees: true})
           p= text
-        h4= i18n.t("views.work_with_us.in_collaboration_with")
-        center
-          div(class="thumbnail arb-collaborator-thumbnail")
-            img(src="/images/semantic.gif")
-            div(class="caption")
-              h5
-                a(target="_blank", href="http://semantic.mx/") Semantic
+        div(class="alert alert-info",. style="background-color:#EBF4F8;")
+          h4= i18n.t("views.work_with_us.in_collaboration_with")
+          center
+            div(class="thumbnail arb-thumbnail")
+              img(src="/images/semantic.gif")
+              div(class="caption")
+                h5
+                  a(target="_blank", href="http://semantic.mx/") Semantic
     div(style="margin-top:15px;", class="panel panel-info")
       div(class="panel-heading")= i18n.t("views.work_with_us.look_and_offer.title")
       div(class="panel-body")
@@ -63,4 +69,15 @@ block content
         ol
           each step in i18n.t("views.work_with_us.process.steps", {returnObjectTrees: true})
             li= step
-
+    div(style="margin-top:15px;", class="panel panel-info")
+      div(class="panel-heading")= i18n.t("views.work_with_us.share.title")
+      div(class="panel-body")
+        center
+          div(class="thumbnail arb-thumbnail")
+            a(class="fancybox", href=i18n.t("meta.image"))
+              img(src=i18n.t("meta.image"))
+        center
+          div(class="fb-share-button", data-href=page_url, data-layout="button")
+          a(href="https://twitter.com/share", class="twitter-share-button") Tweet
+          script.
+            !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');

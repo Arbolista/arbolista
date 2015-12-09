@@ -25,7 +25,10 @@ module.exports = function(app, handlers, fn){
 		app.get("/oportunidades", function(req, res, next){
 			res.redirect('/es/trabaja-con-nosotros');
 		});
-		
+		app.get("/opportunities", function(req, res, next){
+			res.redirect('/es/work-with-us');
+		});		
+
 		/* Send Encrypted Email */
 		app.get('/data/email', handlers.fnSendEmail);
 		

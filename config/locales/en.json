@@ -4,6 +4,11 @@
 		"hire_us": "hire-us",
 		"work_with_us": "work-with-us"
 	},
+	"meta": {
+			"title": "Developer Opportunity in CDMX",
+			"description": "Looking for programmers to join an exanding team in CDMX.",
+			"image": "/images/opportunities.png"
+	},
 	"views" : {
 		"layout" : {
 			"hire_us" : "Hire",
@@ -24,7 +29,7 @@
 					"We will have at least two openings for 2016, which we expect to lead to full employment for 1-2 years."
 				]
 			},
-			"in_collaboration_with": "In collaboration with",
+			"in_collaboration_with": "Collaborators",
 			"look_and_offer": {
 				"title": "Who We're Looking for and What We Offer",
 				"text": [

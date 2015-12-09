@@ -4,6 +4,11 @@
 		"hire_us": "contrata-nosotros",
 		"work_with_us": "trabaja-con-nosotros"
 	},
+	"meta": {
+			"title": "Oportunidades de Programación",
+			"description": "Se buscan dos programadores para colaborar en la CDMX.",
+			"image": "/images/oportunidades.png"
+	},
 	"views" : {
 		"layout" : {
 			"work_with_us" : "Trabaja",
@@ -24,7 +29,7 @@
 					"Tenemos dos oportunidades por el año 2015 y esperamos que pueden dirigirnos a una relación profesional a largo plazo."
 				]
 			},
-			"in_collaboration_with": "En colaboración con",
+			"in_collaboration_with": "Colaboradores",
 			"look_and_offer": {
 				"title": "Quién Buscamos y Qué Ofrecemos",
 				"text": [
@@ -45,7 +50,7 @@
 					{"link": "http://www.climateworks.org", "label": "the Climateworks Foundation"}
 				]
 			},
-			"Tecnología": {
+			"technology": {
 				"title": "Nuestra Tecnología",
 				"text": [
 					"Como negocio, nos enfocamos en los fundamentales de programación en vez de un idioma en particular. Esto nos ofrece más oportunidades y nos regala la habilidad de elegir nuestros clientes por sus metas, en vez de su tecnología.",

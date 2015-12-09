@@ -5,5 +5,6 @@
 //= require d3/d3.min
 //= require bubbles
 //= require forge.min
+//= require fancybox/source/jquery.fancybox
 //= require_tree ./angular/modules
 //= require_tree ./angular/lib

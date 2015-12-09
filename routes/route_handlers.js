@@ -1,12 +1,16 @@
 var i18n = require("i18next");
 var fnAbout = function(req, res, next) {
-	  res.render('about', { title: 'arbolista', current_page: "about"});
+	  res.render('about', { title: 'arbolista', current_page: "about", host: req.headers.host});
 	},
 	fnHireUs = function(req, res, next) {
-	  res.render('hire_us', { title: 'arbolista', current_page: "hire_us"});
+	  res.render('hire_us', { title: 'arbolista', current_page: "hire_us", host: req.headers.host});
 	},
 	fnWorkWithUs = function(req, res, next) {
-	  res.render('work_with_us', { title: 'arbolista', current_page: "work_with_us" });
+    var host = "//" + req.headers.host;
+	  res.render('work_with_us', { title: 'arbolista', 
+                current_page: "work_with_us", 
+                host: host, 
+                page_url: [host, i18n.lng(), i18n.t("routes.work_with_us")].join("/") });
 	},
 	fnSendEmail = function(req, res, next){
 		var pwd = Math.random().toString(36).slice(-8),
